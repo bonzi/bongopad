@@ -1,0 +1,1080 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "bongopad"
+Date ""
+Rev "1"
+Comp "bonzi.sh"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 550  650  0    79   ~ 16
+Controller
+$Comp
+L Cherry_MX:Cherry_MX_RGB K2
+U 1 1 610F6B13
+P 2800 3700
+F 0 "K2" H 2800 4175 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 2800 4084 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 2800 3700 50  0001 C CNN
+F 3 "" H 2800 3700 50  0001 C CNN
+	1    2800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K3
+U 1 1 610F749E
+P 4350 3700
+F 0 "K3" H 4350 4175 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 4350 4084 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 4350 3700 50  0001 C CNN
+F 3 "" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K5
+U 1 1 610FB933
+P 1200 4500
+F 0 "K5" H 1200 4975 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 1200 4884 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 1200 4500 50  0001 C CNN
+F 3 "" H 1200 4500 50  0001 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K6
+U 1 1 610FB939
+P 2800 4450
+F 0 "K6" H 2800 4925 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 2800 4834 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 2800 4450 50  0001 C CNN
+F 3 "" H 2800 4450 50  0001 C CNN
+	1    2800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K7
+U 1 1 610FB93F
+P 4350 4450
+F 0 "K7" H 4350 4925 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 4350 4834 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 4350 4450 50  0001 C CNN
+F 3 "" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K10
+U 1 1 610FCBFD
+P 2800 5350
+F 0 "K10" H 2800 5825 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 2800 5734 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 2800 5350 50  0001 C CNN
+F 3 "" H 2800 5350 50  0001 C CNN
+	1    2800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K11
+U 1 1 610FCC03
+P 4350 5350
+F 0 "K11" H 4350 5825 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 4350 5734 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 4350 5350 50  0001 C CNN
+F 3 "" H 4350 5350 50  0001 C CNN
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K13
+U 1 1 610FE073
+P 1200 6350
+F 0 "K13" H 1200 6825 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 1200 6734 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 1200 6350 50  0001 C CNN
+F 3 "" H 1200 6350 50  0001 C CNN
+	1    1200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K14
+U 1 1 610FE079
+P 2800 6300
+F 0 "K14" H 2800 6775 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 2800 6684 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 2800 6300 50  0001 C CNN
+F 3 "" H 2800 6300 50  0001 C CNN
+	1    2800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K15
+U 1 1 610FE07F
+P 4350 6300
+F 0 "K15" H 4350 6775 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 4350 6684 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 4350 6300 50  0001 C CNN
+F 3 "" H 4350 6300 50  0001 C CNN
+	1    4350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K17
+U 1 1 610FF9F9
+P 1150 7300
+F 0 "K17" H 1150 7775 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 1150 7684 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 1150 7300 50  0001 C CNN
+F 3 "" H 1150 7300 50  0001 C CNN
+	1    1150 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K18
+U 1 1 610FF9FF
+P 2750 7250
+F 0 "K18" H 2750 7725 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 2750 7634 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 2750 7250 50  0001 C CNN
+F 3 "" H 2750 7250 50  0001 C CNN
+	1    2750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K19
+U 1 1 610FFA05
+P 4300 7250
+F 0 "K19" H 4300 7725 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 4300 7634 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 4300 7250 50  0001 C CNN
+F 3 "" H 4300 7250 50  0001 C CNN
+	1    4300 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J1
+U 1 1 61114E5C
+P 3350 1150
+F 0 "J1" H 3438 1064 50  0000 L CNN
+F 1 "OLED" H 3438 973 50  0000 L CNN
+F 2 "acheron_Connectors:PinHeader_1x4_P2.54mm_Vertical" H 3350 1150 50  0001 C CNN
+F 3 "~" H 3350 1150 50  0001 C CNN
+	1    3350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K1
+U 1 1 610F40EC
+P 1200 3750
+F 0 "K1" H 1200 4225 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 1200 4134 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 1200 3750 50  0001 C CNN
+F 3 "" H 1200 3750 50  0001 C CNN
+	1    1200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3800 1525 3800
+Wire Wire Line
+	3150 3700 3150 3650
+Wire Wire Line
+	3150 3650 3125 3650
+Connection ~ 1525 3800
+Wire Wire Line
+	1525 3800 1800 3800
+Connection ~ 3125 3650
+Wire Wire Line
+	3125 3650 3100 3650
+Wire Wire Line
+	3950 3750 3950 3700
+Wire Wire Line
+	3950 3700 4700 3700
+Wire Wire Line
+	4700 3700 4700 3650
+Wire Wire Line
+	4700 3650 4675 3650
+Connection ~ 4675 3650
+Wire Wire Line
+	4675 3650 4650 3650
+Wire Wire Line
+	4650 3750 4675 3750
+Text GLabel 1950 4400 2    50   Input ~ 0
+K4-DO
+Connection ~ 1525 4450
+Wire Wire Line
+	1525 4450 1500 4450
+Wire Wire Line
+	2400 4500 2400 4450
+Wire Wire Line
+	2400 4450 3150 4450
+Wire Wire Line
+	3150 4450 3150 4400
+Wire Wire Line
+	3150 4400 3125 4400
+Connection ~ 3125 4400
+Wire Wire Line
+	3125 4400 3100 4400
+Wire Wire Line
+	3950 4500 3950 4450
+Wire Wire Line
+	3950 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4400
+Wire Wire Line
+	4700 4400 4675 4400
+Connection ~ 4675 4400
+Wire Wire Line
+	4675 4400 4650 4400
+Wire Wire Line
+	4650 4500 4675 4500
+Text GLabel 1850 5300 2    50   Input ~ 0
+K8-DO
+Wire Wire Line
+	2400 5400 2400 5350
+Wire Wire Line
+	2400 5350 3150 5350
+Wire Wire Line
+	3150 5350 3150 5300
+Wire Wire Line
+	3150 5300 3125 5300
+Connection ~ 3125 5300
+Wire Wire Line
+	3125 5300 3100 5300
+Wire Wire Line
+	3900 5400 3900 5350
+Wire Wire Line
+	3900 5350 4700 5350
+Wire Wire Line
+	4700 5350 4700 5300
+Wire Wire Line
+	4700 5300 4675 5300
+Connection ~ 4675 5300
+Wire Wire Line
+	4675 5300 4650 5300
+Text GLabel 1850 6250 2    50   Input ~ 0
+K12-DO
+Text GLabel 1850 7200 2    50   Input ~ 0
+K16-DO
+Wire Wire Line
+	1450 7250 1475 7250
+Connection ~ 1475 7250
+Wire Wire Line
+	1500 6300 1525 6300
+Connection ~ 1525 6300
+Wire Wire Line
+	2400 7300 2400 7250
+Wire Wire Line
+	2400 7250 3100 7250
+Wire Wire Line
+	3100 7250 3100 7200
+Wire Wire Line
+	3100 7200 3075 7200
+Connection ~ 3075 7200
+Wire Wire Line
+	3075 7200 3050 7200
+Wire Wire Line
+	3050 7300 3075 7300
+Wire Wire Line
+	3350 7300 3350 7250
+Wire Wire Line
+	4650 7250 4650 7200
+Wire Wire Line
+	4650 7200 4625 7200
+Connection ~ 3075 7300
+Wire Wire Line
+	3075 7300 3350 7300
+Connection ~ 4625 7200
+Wire Wire Line
+	4625 7200 4600 7200
+Wire Wire Line
+	4600 7300 4625 7300
+Connection ~ 4625 7300
+Wire Wire Line
+	4625 7300 4850 7300
+Wire Wire Line
+	2450 6350 2450 6300
+Wire Wire Line
+	2450 6300 3150 6300
+Wire Wire Line
+	3150 6300 3150 6250
+Wire Wire Line
+	3150 6250 3125 6250
+Connection ~ 3125 6250
+Wire Wire Line
+	3125 6250 3100 6250
+Wire Wire Line
+	3950 6350 3950 6300
+Wire Wire Line
+	3950 6300 4700 6300
+Wire Wire Line
+	4700 6300 4700 6250
+Wire Wire Line
+	4700 6250 4675 6250
+Connection ~ 4675 6250
+Wire Wire Line
+	4675 6250 4650 6250
+Wire Wire Line
+	4650 6350 4675 6350
+Connection ~ 4675 6350
+Wire Wire Line
+	4675 6350 4850 6350
+$Comp
+L Diode:1N4148W D1
+U 1 1 6119754D
+P 1600 3150
+F 0 "D1" V 1554 3230 50  0000 L CNN
+F 1 "1N4148W" V 1645 3230 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1600 2975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1600 3150 50  0001 C CNN
+	1    1600 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D2
+U 1 1 611AAA01
+P 3200 3100
+F 0 "D2" V 3154 3180 50  0000 L CNN
+F 1 "1N4148W" V 3245 3180 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3200 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D5
+U 1 1 611D4543
+P 1750 4100
+F 0 "D5" V 1704 4180 50  0000 L CNN
+F 1 "1N4148W" V 1795 4180 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1750 3925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1750 4100 50  0001 C CNN
+	1    1750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D6
+U 1 1 611D4549
+P 3350 4050
+F 0 "D6" V 3304 4130 50  0000 L CNN
+F 1 "1N4148W" V 3395 4130 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3350 3875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3350 4050 50  0001 C CNN
+	1    3350 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D7
+U 1 1 611D9D05
+P 4800 4000
+F 0 "D7" V 4754 4080 50  0000 L CNN
+F 1 "1N4148W" V 4845 4080 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 3825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D9
+U 1 1 611DFD2F
+P 1700 4900
+F 0 "D9" V 1654 4980 50  0000 L CNN
+F 1 "1N4148W" V 1745 4980 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1700 4725 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1700 4900 50  0001 C CNN
+	1    1700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D10
+U 1 1 611DFD35
+P 3300 4850
+F 0 "D10" V 3254 4930 50  0000 L CNN
+F 1 "1N4148W" V 3345 4930 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3300 4675 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D11
+U 1 1 611E55B1
+P 4800 4850
+F 0 "D11" V 4754 4930 50  0000 L CNN
+F 1 "1N4148W" V 4845 4930 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 4675 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 4850 50  0001 C CNN
+	1    4800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D13
+U 1 1 611EAA7B
+P 1700 5850
+F 0 "D13" V 1654 5930 50  0000 L CNN
+F 1 "1N4148W" V 1745 5930 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1700 5675 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1700 5850 50  0001 C CNN
+	1    1700 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D14
+U 1 1 611EAA81
+P 3300 5800
+F 0 "D14" V 3254 5880 50  0000 L CNN
+F 1 "1N4148W" V 3345 5880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3300 5625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3300 5800 50  0001 C CNN
+	1    3300 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D15
+U 1 1 611F0585
+P 4750 5800
+F 0 "D15" V 4704 5880 50  0000 L CNN
+F 1 "1N4148W" V 4795 5880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4750 5625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4750 5800 50  0001 C CNN
+	1    4750 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D17
+U 1 1 611F5C6B
+P 1650 6800
+F 0 "D17" V 1604 6880 50  0000 L CNN
+F 1 "1N4148W" V 1695 6880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1650 6625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 1650 6800 50  0001 C CNN
+	1    1650 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D18
+U 1 1 611F5C71
+P 3250 6750
+F 0 "D18" V 3204 6830 50  0000 L CNN
+F 1 "1N4148W" V 3295 6830 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3250 6575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3250 6750 50  0001 C CNN
+	1    3250 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D19
+U 1 1 611FB535
+P 4750 6750
+F 0 "D19" V 4704 6830 50  0000 L CNN
+F 1 "1N4148W" V 4795 6830 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4750 6575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4750 6750 50  0001 C CNN
+	1    4750 6750
+	0    1    1    0   
+$EndComp
+Connection ~ 4675 4500
+Connection ~ 4675 3750
+$Comp
+L Cherry_MX:Cherry_MX_RGB K4
+U 1 1 610F769C
+P 5750 3650
+F 0 "K4" H 5750 4125 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 5750 4034 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 5750 3650 50  0001 C CNN
+F 3 "" H 5750 3650 50  0001 C CNN
+	1    5750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K8
+U 1 1 610FB945
+P 5750 4400
+F 0 "K8" H 5750 4875 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 5750 4784 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 5750 4400 50  0001 C CNN
+F 3 "" H 5750 4400 50  0001 C CNN
+	1    5750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K12
+U 1 1 610FCC09
+P 5750 5300
+F 0 "K12" H 5750 5775 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 5750 5684 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 5750 5300 50  0001 C CNN
+F 3 "" H 5750 5300 50  0001 C CNN
+	1    5750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K16
+U 1 1 610FE085
+P 5750 6250
+F 0 "K16" H 5750 6725 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 5750 6634 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 5750 6250 50  0001 C CNN
+F 3 "" H 5750 6250 50  0001 C CNN
+	1    5750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Cherry_MX:Cherry_MX_RGB K20
+U 1 1 610FFA0B
+P 5700 7200
+F 0 "K20" H 5700 7675 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 5700 7584 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 5700 7200 50  0001 C CNN
+F 3 "" H 5700 7200 50  0001 C CNN
+	1    5700 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3650 6100 3600
+Wire Wire Line
+	6100 3600 6075 3600
+Connection ~ 6075 3600
+Wire Wire Line
+	6075 3600 6050 3600
+Text GLabel 6450 3700 2    50   Input ~ 0
+K4-DO
+Wire Wire Line
+	6050 3700 6075 3700
+Connection ~ 6075 3700
+Wire Wire Line
+	6075 3700 6450 3700
+Wire Wire Line
+	6100 4400 6100 4350
+Wire Wire Line
+	6100 4350 6075 4350
+Connection ~ 6075 4350
+Wire Wire Line
+	6075 4350 6050 4350
+Text GLabel 6450 4450 2    50   Input ~ 0
+K8-DO
+Wire Wire Line
+	6450 4450 6075 4450
+Connection ~ 6075 4450
+Wire Wire Line
+	6075 4450 6050 4450
+Wire Wire Line
+	5350 5350 5350 5300
+Wire Wire Line
+	5350 5300 6100 5300
+Wire Wire Line
+	6100 5300 6100 5250
+Wire Wire Line
+	6100 5250 6075 5250
+Connection ~ 6075 5250
+Wire Wire Line
+	6075 5250 6050 5250
+Text GLabel 6500 5350 2    50   Input ~ 0
+K12-DO
+Text GLabel 6500 6300 2    50   Input ~ 0
+K16-DO
+Wire Wire Line
+	6050 6300 6075 6300
+Connection ~ 6075 6300
+Wire Wire Line
+	6075 6300 6500 6300
+Wire Wire Line
+	6050 5350 6075 5350
+Connection ~ 6075 5350
+Wire Wire Line
+	6075 5350 6500 5350
+Wire Wire Line
+	6050 7200 6050 7150
+Wire Wire Line
+	6050 7150 6025 7150
+Connection ~ 6025 7150
+Wire Wire Line
+	6025 7150 6000 7150
+Wire Wire Line
+	6100 6250 6100 6200
+Wire Wire Line
+	6100 6200 6075 6200
+Connection ~ 6075 6200
+Wire Wire Line
+	6075 6200 6050 6200
+$Comp
+L Diode:1N4148W D4
+U 1 1 611CE8E1
+P 6400 3050
+F 0 "D4" V 6354 3130 50  0000 L CNN
+F 1 "1N4148W" V 6445 3130 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6400 2875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6400 3050 50  0001 C CNN
+	1    6400 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D8
+U 1 1 611D9D0B
+P 6350 3950
+F 0 "D8" V 6304 4030 50  0000 L CNN
+F 1 "1N4148W" V 6395 4030 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 3775 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D12
+U 1 1 611E55B7
+P 6350 4800
+F 0 "D12" V 6304 4880 50  0000 L CNN
+F 1 "1N4148W" V 6395 4880 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 4625 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D16
+U 1 1 611F058B
+P 6300 5750
+F 0 "D16" V 6254 5830 50  0000 L CNN
+F 1 "1N4148W" V 6345 5830 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 5575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 5750 50  0001 C CNN
+	1    6300 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D20
+U 1 1 611FB53B
+P 6300 6700
+F 0 "D20" V 6254 6780 50  0000 L CNN
+F 1 "1N4148W" V 6345 6780 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6300 6525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6300 6700 50  0001 C CNN
+	1    6300 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148W D3
+U 1 1 611CE8DB
+P 4850 3100
+F 0 "D3" V 4804 3180 50  0000 L CNN
+F 1 "1N4148W" V 4895 3180 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4850 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4675 4500 4900 4500
+Wire Wire Line
+	4675 3750 4900 3750
+Wire Wire Line
+	1800 3700 1800 3800
+Wire Wire Line
+	1800 3700 3150 3700
+Wire Wire Line
+	1800 4450 1800 4400
+Wire Wire Line
+	1525 4450 1800 4450
+Wire Wire Line
+	1950 4550 1950 4500
+Wire Wire Line
+	1500 4550 1525 4550
+Wire Wire Line
+	1950 4500 2400 4500
+Connection ~ 1525 4550
+Wire Wire Line
+	1525 4550 1950 4550
+Wire Wire Line
+	3100 4500 3125 4500
+Connection ~ 3125 4500
+Wire Wire Line
+	3125 4500 3950 4500
+Wire Wire Line
+	3100 3750 3125 3750
+Connection ~ 3125 3750
+Wire Wire Line
+	3125 3750 3950 3750
+Wire Wire Line
+	4900 3650 6100 3650
+Wire Wire Line
+	4900 3650 4900 3750
+Wire Wire Line
+	4900 4400 6100 4400
+Wire Wire Line
+	4900 4400 4900 4500
+Wire Wire Line
+	1850 5450 1850 5400
+Wire Wire Line
+	1850 5400 2400 5400
+Wire Wire Line
+	3100 5400 3125 5400
+Connection ~ 3125 5400
+Wire Wire Line
+	3125 5400 3900 5400
+Wire Wire Line
+	1850 6400 1850 6350
+Wire Wire Line
+	1500 6400 1525 6400
+Wire Wire Line
+	1850 6350 2450 6350
+Connection ~ 1525 6400
+Wire Wire Line
+	1525 6400 1850 6400
+Wire Wire Line
+	1850 6300 1850 6250
+Wire Wire Line
+	1525 6300 1850 6300
+Wire Wire Line
+	3100 6350 3125 6350
+Connection ~ 3125 6350
+Wire Wire Line
+	3125 6350 3950 6350
+Wire Wire Line
+	4850 6250 4850 6350
+Wire Wire Line
+	4850 6250 6100 6250
+Wire Wire Line
+	5000 5400 5000 5350
+Wire Wire Line
+	4650 5400 4675 5400
+Wire Wire Line
+	5000 5350 5350 5350
+Connection ~ 4675 5400
+Wire Wire Line
+	4675 5400 5000 5400
+Wire Wire Line
+	1850 7350 1850 7300
+Wire Wire Line
+	1450 7350 1475 7350
+Wire Wire Line
+	1850 7300 2400 7300
+Connection ~ 1475 7350
+Wire Wire Line
+	1475 7350 1850 7350
+Wire Wire Line
+	1850 7250 1850 7200
+Wire Wire Line
+	1475 7250 1850 7250
+Wire Wire Line
+	3350 7250 4650 7250
+Wire Wire Line
+	3100 3450 3125 3450
+Wire Wire Line
+	3200 3450 3200 3250
+Connection ~ 3125 3450
+Wire Wire Line
+	3125 3450 3200 3450
+Connection ~ 3200 3250
+Wire Wire Line
+	3200 3250 3200 3200
+Wire Wire Line
+	1450 4250 1525 4250
+Connection ~ 1525 4250
+Wire Wire Line
+	1525 4250 1750 4250
+Wire Wire Line
+	3100 4200 3125 4200
+Connection ~ 3125 4200
+Wire Wire Line
+	3125 4200 3350 4200
+Wire Wire Line
+	1700 5150 1700 5050
+Connection ~ 1700 5050
+Wire Wire Line
+	1700 5050 1700 5000
+Wire Wire Line
+	4650 3450 4675 3450
+Wire Wire Line
+	4850 3450 4850 3250
+Connection ~ 4675 3450
+Wire Wire Line
+	4675 3450 4850 3450
+Wire Wire Line
+	1500 3500 1525 3500
+Wire Wire Line
+	1600 3250 1600 3300
+Connection ~ 1525 3500
+Wire Wire Line
+	1525 3500 1600 3500
+Connection ~ 1600 3300
+Wire Wire Line
+	1600 3300 1600 3500
+Wire Wire Line
+	3100 5100 3125 5100
+Wire Wire Line
+	3300 5100 3300 5000
+Connection ~ 3125 5100
+Wire Wire Line
+	3125 5100 3300 5100
+Wire Wire Line
+	4700 5100 4800 5100
+Wire Wire Line
+	4800 5100 4800 5000
+Wire Wire Line
+	1500 6100 1525 6100
+Wire Wire Line
+	1700 6100 1700 6000
+Connection ~ 1525 6100
+Wire Wire Line
+	1525 6100 1700 6100
+Wire Wire Line
+	3100 6050 3125 6050
+Wire Wire Line
+	3300 6050 3300 5950
+Connection ~ 3125 6050
+Wire Wire Line
+	3125 6050 3300 6050
+Wire Wire Line
+	4650 6050 4675 6050
+Wire Wire Line
+	4750 6050 4750 5950
+Connection ~ 4675 6050
+Wire Wire Line
+	4675 6050 4750 6050
+Wire Wire Line
+	1450 7050 1475 7050
+Wire Wire Line
+	1650 7050 1650 6950
+Connection ~ 1475 7050
+Wire Wire Line
+	1475 7050 1650 7050
+Wire Wire Line
+	3050 7000 3075 7000
+Wire Wire Line
+	3250 7000 3250 6900
+Connection ~ 3075 7000
+Wire Wire Line
+	3075 7000 3250 7000
+Wire Wire Line
+	4600 7000 4625 7000
+Wire Wire Line
+	4750 7000 4750 6900
+Connection ~ 4625 7000
+Wire Wire Line
+	4625 7000 4750 7000
+Wire Wire Line
+	6000 6950 6025 6950
+Wire Wire Line
+	6300 6950 6300 6850
+Connection ~ 6025 6950
+Wire Wire Line
+	6025 6950 6300 6950
+Wire Wire Line
+	6050 6000 6075 6000
+Wire Wire Line
+	6300 6000 6300 5900
+Connection ~ 6075 6000
+Wire Wire Line
+	6075 6000 6300 6000
+Wire Wire Line
+	6050 5050 6075 5050
+Wire Wire Line
+	6350 5050 6350 4950
+Connection ~ 6075 5050
+Wire Wire Line
+	6075 5050 6350 5050
+Wire Wire Line
+	6050 4150 6075 4150
+Wire Wire Line
+	6350 4150 6350 4100
+Connection ~ 6075 4150
+Wire Wire Line
+	6075 4150 6350 4150
+Wire Wire Line
+	6050 3400 6075 3400
+Wire Wire Line
+	6400 3400 6400 3200
+Connection ~ 6075 3400
+Wire Wire Line
+	6075 3400 6400 3400
+Wire Wire Line
+	4650 4200 4675 4200
+Wire Wire Line
+	4800 4200 4800 4150
+Connection ~ 4675 4200
+Wire Wire Line
+	4675 4200 4800 4200
+Wire Wire Line
+	4850 7200 6050 7200
+Wire Wire Line
+	4850 7200 4850 7300
+Wire Wire Line
+	1800 4400 1950 4400
+Wire Wire Line
+	1525 5150 1700 5150
+Wire Wire Line
+	1500 5150 1525 5150
+Connection ~ 1525 5150
+Wire Wire Line
+	1525 5450 1850 5450
+Wire Wire Line
+	1500 5450 1525 5450
+Connection ~ 1525 5450
+$Comp
+L Cherry_MX:Cherry_MX_RGB K9
+U 1 1 610FCBF7
+P 1200 5400
+F 0 "K9" H 1200 5875 50  0000 C CNN
+F 1 "Cherry_MX_RGB" H 1200 5784 50  0000 C CNN
+F 2 "Cherry MX:Cherry-MX_PCB-Mounted_LTST-A683CEGBW_Kailh_Socket" H 1200 5400 50  0001 C CNN
+F 3 "" H 1200 5400 50  0001 C CNN
+	1    1200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5350 1525 5350
+Wire Wire Line
+	1700 5350 1700 5300
+Wire Wire Line
+	1700 5300 1850 5300
+Connection ~ 1525 5350
+Wire Wire Line
+	1525 5350 1700 5350
+Wire Bus Line
+	3850 2950 3850 7500
+Wire Bus Line
+	5350 2950 5350 7500
+Wire Bus Line
+	6900 7500 6900 2900
+Entry Wire Line
+	650  3000 750  3100
+Entry Wire Line
+	650  3950 750  4050
+Entry Wire Line
+	650  4650 750  4750
+Entry Wire Line
+	650  5550 750  5650
+Entry Wire Line
+	650  6500 750  6600
+Entry Wire Line
+	2300 6450 2400 6550
+Entry Wire Line
+	2300 5500 2400 5600
+Entry Wire Line
+	2300 4600 2400 4700
+Entry Wire Line
+	2300 3000 2400 3100
+Entry Wire Line
+	3850 2950 3950 3050
+Entry Wire Line
+	5350 2950 5450 3050
+Entry Wire Line
+	6900 2900 7000 3000
+Wire Wire Line
+	1600 3000 900  3000
+Wire Wire Line
+	900  3000 900  3100
+Wire Wire Line
+	900  3100 750  3100
+Wire Wire Line
+	750  4050 1000 4050
+Wire Wire Line
+	1000 4050 1000 3950
+Wire Wire Line
+	1000 3950 1750 3950
+Wire Wire Line
+	750  4750 1700 4750
+Wire Wire Line
+	750  5650 1700 5650
+Wire Wire Line
+	1700 5650 1700 5700
+Wire Wire Line
+	1650 6650 750  6650
+Wire Wire Line
+	750  6650 750  6600
+Wire Wire Line
+	2400 6550 3250 6550
+Wire Wire Line
+	3250 6550 3250 6600
+Wire Wire Line
+	2400 5600 3300 5600
+Wire Wire Line
+	3300 5600 3300 5650
+Wire Wire Line
+	2400 4700 3300 4700
+Wire Wire Line
+	2400 3100 2900 3100
+Wire Wire Line
+	2900 3100 2900 2950
+Wire Wire Line
+	2900 2950 3200 2950
+Entry Wire Line
+	2300 3800 2400 3900
+Wire Wire Line
+	3350 3900 2400 3900
+$Comp
+L Device:Rotary_Encoder_Switch ROT1
+U 1 1 611071DF
+P 6400 950
+F 0 "ROT1" H 6400 1317 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6400 1226 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 1110 50  0001 C CNN
+F 3 "~" H 6400 1210 50  0001 C CNN
+	1    6400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch ROT2
+U 1 1 6110E45B
+P 6400 1700
+F 0 "ROT2" H 6400 2067 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6400 1976 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 1860 50  0001 C CNN
+F 3 "~" H 6400 1960 50  0001 C CNN
+	1    6400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch ROT3
+U 1 1 6111E41A
+P 6400 2450
+F 0 "ROT3" H 6400 2817 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6400 2726 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6250 2610 50  0001 C CNN
+F 3 "~" H 6400 2710 50  0001 C CNN
+	1    6400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Switches:MOMENTARY-SWITCH-SPST-PTH-6.0MM S1
+U 1 1 612CAE1E
+P 2200 1350
+F 0 "S1" V 2158 1428 45  0000 L CNN
+F 1 "Reset" V 2242 1428 45  0000 L CNN
+F 2 "TACTILE_SWITCH_PTH_6.0MM" H 2200 1550 20  0001 C CNN
+F 3 "" H 2200 1350 50  0001 C CNN
+F 4 "" H 2200 1481 60  0000 C CNN "Field4"
+	1    2200 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 1550 2050 1550
+Wire Wire Line
+	2050 1550 2050 1250
+Wire Wire Line
+	2050 1250 1600 1250
+$Comp
+L SparkFun-Boards:SPARKFUN_PRO_MICRO MCU1
+U 1 1 610EEFB7
+P 1150 1600
+F 0 "MCU1" H 1150 2404 45  0000 C CNB
+F 1 "Pro Micro (Or clone)" H 1150 2320 45  0000 C CNN
+F 2 "SPARKFUN_PRO_MICRO" H 1150 2400 20  0001 C CNN
+F 3 "" H 1150 1600 50  0001 C CNN
+F 4 "" H 1150 2331 60  0001 C CNN "Field4"
+	1    1150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1150 1600 1150
+Wire Bus Line
+	650  3000 650  7550
+Wire Bus Line
+	2300 3000 2300 7500
+$EndSCHEMATC
